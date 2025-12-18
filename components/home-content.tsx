@@ -11,7 +11,7 @@ export function HomeContent() {
           <span className="text-accent">{"// Hi, I'm Dimas"}</span>
         </p>
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-balance leading-tight">
-          <span className="text-secondary">Backend-Focused</span> <span className="text-foreground">Developer &</span>{" "}
+          <span className="text-secondary">Fullstack</span> <span className="text-foreground">Developer &</span>{" "}
           <span className="text-primary">Informatics Student</span>
         </h1>
       </div>
