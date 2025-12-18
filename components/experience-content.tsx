@@ -3,7 +3,7 @@ export function ExperienceContent() {
     {
       role: "Assistant Project Manager",
       organization: "IT Department",
-      period: "2023 - Present",
+      period: "2025 - Present",
       type: "Leadership & Development",
       responsibilities: [
         "Coordinated frontend, backend, and UI/UX teams across multiple projects",
@@ -14,8 +14,8 @@ export function ExperienceContent() {
     },
     {
       role: "Laboratory Assistant & Programming Mentor",
-      organization: "University Computer Laboratory",
-      period: "2022 - Present",
+      organization: "National University",
+      period: "2024 - Present",
       type: "Teaching & Mentoring",
       responsibilities: [
         "Taught C++ programming fundamentals to undergraduate students",
@@ -71,10 +71,6 @@ export function ExperienceContent() {
           <p className="flex gap-2">
             <span className="text-accent">→</span>
             <span>Active participant in CTF (Capture The Flag) competitions</span>
-          </p>
-          <p className="flex gap-2">
-            <span className="text-accent">→</span>
-            <span>Contributing to open-source projects on GitHub</span>
           </p>
           <p className="flex gap-2">
             <span className="text-accent">→</span>

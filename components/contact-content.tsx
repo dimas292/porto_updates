@@ -1,10 +1,7 @@
 "use client"
 
 import type React from "react"
-
 import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
 import { Card } from "@/components/ui/card"
 import { Github, Linkedin, Mail, Send } from "lucide-react"
 
@@ -55,7 +52,7 @@ export function ContactContent() {
 
       <div className="grid gap-8 md:grid-cols-2">
         {/* Contact Form */}
-        <div className="space-y-6">
+        {/* <div className="space-y-6">
           <div>
             <h2 className="text-xl font-semibold text-foreground mb-4">
               <span className="text-secondary">const</span> sendMessage = () {"=>"} {"{"}
@@ -113,7 +110,7 @@ export function ContactContent() {
           </form>
 
           <p className="text-xl font-semibold text-secondary">{"}"}</p>
-        </div>
+        </div> */}
 
         {/* Social Links */}
         <div className="space-y-6">
@@ -158,11 +155,11 @@ export function ContactContent() {
             <ul className="space-y-1 text-sm text-muted-foreground pl-4">
               <li className="flex gap-2">
                 <span className="text-accent">→</span>
-                <span>Backend development projects</span>
+                <span>Fullstack development projects</span>
               </li>
               <li className="flex gap-2">
                 <span className="text-accent">→</span>
-                <span>Technical mentorship</span>
+                <span>Internship</span>
               </li>
               <li className="flex gap-2">
                 <span className="text-accent">→</span>

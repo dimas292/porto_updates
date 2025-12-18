@@ -3,7 +3,7 @@ export function SkillsContent() {
     languages: ["TypeScript", "JavaScript", "Go", "Python", "C++"],
     frameworks: ["Next.js", "React", "Prisma", "Tailwind CSS", "Node.js"],
     backend: ["REST APIs", "Auth Systems", "Database Design", "Self-hosting (Coolify)"],
-    other: ["Git & GitHub", "System Design", "CTF Fundamentals", "Linux/Unix"],
+    other: ["Git & GitHub", "CTF Fundamentals", "Linux/Unix"],
   }
 
   return (
