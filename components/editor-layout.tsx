@@ -5,6 +5,7 @@ import type React from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { FileCode2, FolderOpen, Settings, X, Minus, Square } from "lucide-react"
+import iconTypescript from "@/public/ts-logo-256.png"
 import { cn } from "@/lib/utils"
 
 interface EditorLayoutProps {
@@ -13,12 +14,12 @@ interface EditorLayoutProps {
 }
 
 const files = [
-  { name: "index.ts", path: "/", icon: "📄" },
-  { name: "about.ts", path: "/about", icon: "📄" },
-  { name: "projects.ts", path: "/projects", icon: "📄" },
-  { name: "skills.ts", path: "/skills", icon: "📄" },
-  { name: "experience.ts", path: "/experience", icon: "📄" },
-  { name: "contact.ts", path: "/contact", icon: "📄" },
+  { name: "index.ts", path: "/", icon: <img src={iconTypescript.src} alt="TS" className="h-4 w-4" /> },
+  { name: "about.ts", path: "/about", icon: <img src={iconTypescript.src} alt="TS" className="h-4 w-4" /> },
+  { name: "projects.ts", path: "/projects", icon: <img src={iconTypescript.src} alt="TS" className="h-4 w-4" /> },
+  { name: "skills.ts", path: "/skills", icon: <img src={iconTypescript.src} alt="TS" className="h-4 w-4" /> },
+  { name: "experience.ts", path: "/experience", icon: <img src={iconTypescript.src} alt="TS" className="h-4 w-4" /> },
+  { name: "contact.ts", path: "/contact", icon: <img src={iconTypescript.src} alt="TS" className="h-4 w-4" /> },
 ]
 
 export function EditorLayout({ children, activeFile }: EditorLayoutProps) {
